@@ -79,7 +79,7 @@ hexo g &amp;&amp; hexo d
         <category>博客</category>
       </categories>
       <tags>
-        <tag>技能</tag>
+        <tag>tool</tag>
       </tags>
   </entry>
   <entry>
@@ -89,7 +89,8 @@ hexo g &amp;&amp; hexo d
 <p>The impression from down to up is shocking</p>
 ]]></content>
       <tags>
-        <tag>photography travel</tag>
+        <tag>photography</tag>
+        <tag>travel</tag>
       </tags>
   </entry>
 </search>
