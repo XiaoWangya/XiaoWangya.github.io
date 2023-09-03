@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>blog</title>
+    <url>/2023/09/03/blog-1/</url>
+    <content><![CDATA[<h1 id="用HEXO和Github建立个人网站"><a href="#用HEXO和Github建立个人网站" class="headerlink" title="用HEXO和Github建立个人网站"></a>用HEXO和Github建立个人网站</h1><p>我的个人网站 <a href="https://xiaowangya.github.io/">https://xiaowangya.github.io/</a></p>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h3><ul>
+<li><p>Node.js 安装</p>
+<p>  根据自己的电脑平台从该<a href="https://nodejs.org/zh-cn/download">下载链接</a>安装。我个人是windows平台，选择的是长期维护版的“64bit.msi”文件。</p>
+<p>  双击运行安装文件，安装过程全程下一步，记得勾选 <em>自动加入Path</em> 选项。</p>
+<p>  因为Npm是Node.js的包管理工具(package manager)，所以在安装Node.js的时候会自动安装npm.</p>
+<p>  检查是否安装成功</p>
+<pre><code>  npm -V #检查npm安装
+  node -v #检查node.js
+  path #检查环境变量
+</code></pre>
+</li>
+<li><p>Git安装</p>
+<p>见<a href="https://www.runoob.com/git/git-install-setup.html">此教程</a></p>
+</li>
+</ul>
+<h3 id="框架和主题安装"><a href="#框架和主题安装" class="headerlink" title="框架和主题安装"></a>框架和主题安装</h3><ul>
+<li><p>HEXO框架安装</p>
+<p>  随后打开CMD, 在命令行中输入</p>
+<pre><code>  npm install -g hexo-cli 
+</code></pre>
+<p>  其他平台（如 MAC）参见<a href="https://hexo.io/docs/">link</a></p>
+<p>  安装hexo插件</p>
+<pre><code>  npm install hexo-deployer-git --save
+</code></pre>
+<p>  在下载中意的主题，并在对应的github网站处下载。本方案选择的是<strong>NEXT</strong>主题。</p>
+</li>
+</ul>
+<h2 id="修改个人信息"><a href="#修改个人信息" class="headerlink" title="修改个人信息"></a>修改个人信息</h2><h3 id="选择网站主题"><a href="#选择网站主题" class="headerlink" title="选择网站主题"></a>选择网站主题</h3><p>首先，创建一个本地用于存储网站的文件夹。然后在该文件夹中，执行</p>
+<pre><code>git init
+hexo init dir_name #dir_name是你定义的文件夹名字
+cd dir_name
+npm install
+</code></pre>
+<p>在<a href="https://hexo.io/themes">HEXO</a>中选好主题并安装到themes文件夹下</p>
+<pre><code>cd themes
+git clone https://github.com/your_theme.git #前面选好的主题对应的git仓库
+</code></pre>
+<h3 id="更新相关信息"><a href="#更新相关信息" class="headerlink" title="更新相关信息"></a>更新相关信息</h3><ol>
+<li>github 修改</li>
+</ol>
+<p>  在GitHub上一个新的仓库，命名为<code>yourwebname.github.io</code>。<br>  然后在<code>unwatch</code>选项上方的setting中，左侧栏选择<code>code and automation/page</code>，修改对应的<code>url</code>, <code>source</code>以及<code>branch</code>信息</p>
+<ol start="2">
+<li><p>本地修改</p>
+<p> 用编辑器打开文件夹中的<code>_config.yml</code>文件，并修改一下关键信息</p>
+<pre><code> url: https://username.github.io/project
+ 
+ deploy:
+     type: &#39;git&#39;
+     repo: https://github.com/XiaoWangya/xiaowangya.github.io
+     branch: master
+ theme: hexo-theme-next
+</code></pre>
+</li>
+<li><p>其他信息</p>
+<p> 还是在上面这个文件中，修改对应的姓名等信息</p>
+</li>
+</ol>
+<h2 id="发布你的第一个文章"><a href="#发布你的第一个文章" class="headerlink" title="发布你的第一个文章"></a>发布你的第一个文章</h2><p>命令行输入</p>
+<pre><code>`hexo new &quot;blog&quot;`
+</code></pre>
+<p>创建新博客，然后在<code>./source/_posts/blog.md</code>处可见新的<code>.md</code>文件。具体的语法见<a href="https://www.markdownguide.org/cheat-sheet/">此处</a></p>
+<p>编辑完成之后，在命令行输入</p>
+<pre><code>hexo g &amp;&amp; hexo d
+</code></pre>
+<p>稍等片刻网站即会完成更新。</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>想要删除以前的文档，可以在本地删除对应文件之后，执行</p>
+<pre><code>hexo clean
+hexo g &amp;&amp; hexo d
+</code></pre>
+<p>即可</p>
+]]></content>
+  </entry>
+</search>
