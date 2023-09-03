@@ -75,6 +75,9 @@ hexo g &amp;&amp; hexo d
 </code></pre>
 <p>即可</p>
 ]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
       <tags>
         <tag>技能</tag>
       </tags>
