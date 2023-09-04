@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xiaowangya.github.io/2023/09/03/blog-1/</loc>
-    
-    <lastmod>2023-09-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xiaowangya.github.io/2023/09/04/%E5%86%B0%E5%B2%9B%EF%BC%81%E5%80%92%E8%AE%A1%E6%97%B6%EF%BC%81/</loc>
     
     <lastmod>2023-09-04</lastmod>
@@ -20,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://xiaowangya.github.io/about/index.html</loc>
+    <loc>https://xiaowangya.github.io/2023/09/04/walk-in-paris/</loc>
     
     <lastmod>2023-09-04</lastmod>
     
@@ -29,7 +20,16 @@
   </url>
   
   <url>
-    <loc>https://xiaowangya.github.io/2023/09/04/walk-in-paris/</loc>
+    <loc>https://xiaowangya.github.io/2023/09/03/blog-1/</loc>
+    
+    <lastmod>2023-09-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaowangya.github.io/about/index.html</loc>
     
     <lastmod>2023-09-04</lastmod>
     
@@ -74,13 +74,6 @@
 
   
   <url>
-    <loc>https://xiaowangya.github.io/tags/tool/</loc>
-    <lastmod>2023-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xiaowangya.github.io/tags/photography/</loc>
     <lastmod>2023-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -89,6 +82,13 @@
   
   <url>
     <loc>https://xiaowangya.github.io/tags/travel/</loc>
+    <lastmod>2023-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaowangya.github.io/tags/tool/</loc>
     <lastmod>2023-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -104,14 +104,14 @@
 
   
   <url>
-    <loc>https://xiaowangya.github.io/categories/blog/</loc>
+    <loc>https://xiaowangya.github.io/categories/travel-note/</loc>
     <lastmod>2023-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xiaowangya.github.io/categories/travel-note/</loc>
+    <loc>https://xiaowangya.github.io/categories/blog/</loc>
     <lastmod>2023-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
