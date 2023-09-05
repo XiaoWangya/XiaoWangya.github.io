@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiaowangya.github.io/2023/09/05/blog3/</loc>
+    
+    <lastmod>2023-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiaowangya.github.io/2023/09/05/blog2/</loc>
     
     <lastmod>2023-09-05</lastmod>
@@ -81,6 +90,20 @@
   </url>
   
   <url>
+    <loc>https://xiaowangya.github.io/tags/daily/</loc>
+    <lastmod>2023-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaowangya.github.io/tags/%E5%81%A5%E8%BA%AB/</loc>
+    <lastmod>2023-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://xiaowangya.github.io/tags/wireless-communication/</loc>
     <lastmod>2023-09-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -95,14 +118,14 @@
   </url>
   
   <url>
-    <loc>https://xiaowangya.github.io/tags/photography/</loc>
+    <loc>https://xiaowangya.github.io/tags/travel/</loc>
     <lastmod>2023-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xiaowangya.github.io/tags/travel/</loc>
+    <loc>https://xiaowangya.github.io/tags/photography/</loc>
     <lastmod>2023-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

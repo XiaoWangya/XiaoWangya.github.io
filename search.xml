@@ -1,43 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>通信链路的方向</title>
-    <url>/2023/09/05/blog2/</url>
-    <content><![CDATA[<p>两个通信设备之间的连接称为通信链路。如果链路是通过多路复用技术构建的，则也称为虚拟信道。通信链路和虚拟信道并不一定相同，这与通信链路的方向性有关。一般来说，通信链路有三种方向性：</p>
-<ul>
-<li><p>全双工：这意味着链路是双向的，双方可以同时向对方发送信息。然而，虚拟信道通常是单向的。要实现全双工传输，链路必须使用两个虚拟信道，每个信道负责一个方向的传输。例如，宽带网络中的 Cable Modem 和 ADSL 网络有两个信道，一个用于上行链路，一个用于下行链路，以形成双向全双工传输。但是，两个信道的速率不一定相同。</p>
-</li>
-<li><p>半双工： 半双工链路是指通信设备允许双向通信，但不能同时传输数据，必须交替进行。半双工链路只使用一个虚拟信道，通信两端轮流使用该信道：获得访问权的通信端可以传输数据，否则只能准备接收数据。虽然半双工链路的信道数量较少，但管理起来却更加复杂。一般来说，访问权限管理使用令牌传输，获得令牌后即可传输数据。</p>
-</li>
-<li><p>单工：这意味着通信链路只允许单向传输数据。单工链路只需要一个虚拟通道。链路的一侧负责传输数据，另一侧只能接收数据，一般用于广播信息。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>wireless communication</tag>
-        <tag>popular science</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>walk in paris</title>
-    <url>/2023/09/04/walk-in-paris/</url>
-    <content><![CDATA[<p>I still remember that night I took a walk under the Eiffel Tower.</p>
-<p><img src="/../Img/DSC00265-standard.jpg" alt="The Eiffel Tower"><br><img src="/../Img/DSC00300-standard.jpg" alt="Light Show"></p>
-<p>The impression from down to up is shocking.</p>
-]]></content>
-      <categories>
-        <category>travel note</category>
-      </categories>
-      <tags>
-        <tag>photography</tag>
-        <tag>travel</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>用HEXO和Github建立个人网站</title>
     <url>/2023/09/03/blog-1/</url>
     <content><![CDATA[<p>我的个人网站 <a href="https://xiaowangya.github.io/">https://xiaowangya.github.io/</a></p>
@@ -117,6 +80,82 @@ hexo g &amp;&amp; hexo d
       </categories>
       <tags>
         <tag>tool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>健身日常</title>
+    <url>/2023/09/05/blog3/</url>
+    <content><![CDATA[<p>今天练腿。</p>
+<p>深蹲前的热身、松解、拉伸和激活确实对蹲起的表现有加成，感觉蹲的更稳了，脚掌的蹬地感也很强，另外没有出现之前下蹲时侯右侧膝盖的微微弹响。总之很值得每次练腿之前做一下。    </p>
+<p>具体的项目包括</p>
+<ol>
+<li>热身：自行车低档位骑5分钟，当全身到达一个微微热的状态。具体的档位看个人，主要是能感到一定的阻力就行，毕竟后面深蹲有的是要用力的地方，不要在这里浪费糖原。这一步主要是让身体进入一个运动的状态，所谓的<strong>分解代谢</strong>。</li>
+<li>松解：松解的话主要是放松紧张的相关肌群。因为是练腿的缘故，我主要是用泡沫轴按压小腿后侧以及<strong>腘绳肌</strong>（即大腿后侧），避免太紧张从而借力。组数大概是每侧每个部位滚动20次，感觉松软了即可。<div ></li>
+<li>拉伸：练腿的拉伸我选择了最伟大的拉伸、弓箭步拉伸、以及青蛙趴。<br>其中，最伟大的拉伸是一个动态拉伸，可以保持身体热度的同时，拉伸我们的后侧链以及核心。弓箭步拉伸则是拉伸我们的<strong>喀腰肌</strong>，因为我们深蹲包括一个屈髋的动作，这有助于降低我们髋部弹响的概率。最后一个青蛙趴也是一个针对髋部的静态拉伸。组数的话，最伟大的拉伸两侧算一组做10组，然后弓步单侧10次，青蛙趴30秒。  <div align="center">
+  <img src=https://i.ytimg.com/vi/CMGmbRjFEtQ/maxresdefault.jpg height="150" hspace="5" vspace="5">
+  <figcaption>最伟大的拉伸，the world's greatest stretch</figcaption></div></li>
+</ol>
+  <div align="center">
+  <img src=https://imgs.gvm.com.tw/upload/gallery/20230210/131834.jpg height="150" hspace="5" vspace="5">
+    <figcaption>青蛙趴实例</figcaption>
+
+</div>
+
+<ol start="4">
+<li><p>活动关节：深蹲是一个多关节复合性动作，包括<strong>踝关节</strong>、<strong>膝关节</strong>和<strong>髋关节</strong>。其中，踝关节通过较大角度的单侧旋转完成，也就是我们中学体育老师教过的“转脚尖”。然后膝关节的活动我是通过器械完成的，但是也可以通过将屈膝90度靠墙静坐，保持15-30秒。最后髋关节则是通过早安式体前屈。</p>
+</li>
+<li><p>激活：激活肌肉的目的是提前让目标肌肉进入状态。如果只拉伸但是不激活，那么运动的发力感则会不够。我的激活动作一组是无负重深蹲，然后一组无负重保加利亚深蹲。</p>
+</li>
+</ol>
+<p>最后附上今天的训练记录。<br>最近忙于写博士论文，所以小肌群就选择性跳过hhh。</p>
+<div >
+  <div align="center">
+  <img src="../Img/xj230905.png" width="300" hspace="5" vspace="5">
+</div>
+<div/>]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>daily</tag>
+        <tag>健身</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>通信链路的方向</title>
+    <url>/2023/09/05/blog2/</url>
+    <content><![CDATA[<p>两个通信设备之间的连接称为通信链路。如果链路是通过多路复用技术构建的，则也称为虚拟信道。通信链路和虚拟信道并不一定相同，这与通信链路的方向性有关。一般来说，通信链路有三种方向性：</p>
+<ul>
+<li><p>全双工：这意味着链路是双向的，双方可以同时向对方发送信息。然而，虚拟信道通常是单向的。要实现全双工传输，链路必须使用两个虚拟信道，每个信道负责一个方向的传输。例如，宽带网络中的 Cable Modem 和 ADSL 网络有两个信道，一个用于上行链路，一个用于下行链路，以形成双向全双工传输。但是，两个信道的速率不一定相同。</p>
+</li>
+<li><p>半双工： 半双工链路是指通信设备允许双向通信，但不能同时传输数据，必须交替进行。半双工链路只使用一个虚拟信道，通信两端轮流使用该信道：获得访问权的通信端可以传输数据，否则只能准备接收数据。虽然半双工链路的信道数量较少，但管理起来却更加复杂。一般来说，访问权限管理使用令牌传输，获得令牌后即可传输数据。</p>
+</li>
+<li><p>单工：这意味着通信链路只允许单向传输数据。单工链路只需要一个虚拟通道。链路的一侧负责传输数据，另一侧只能接收数据，一般用于广播信息。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+        <tag>wireless communication</tag>
+        <tag>popular science</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>walk in paris</title>
+    <url>/2023/09/04/walk-in-paris/</url>
+    <content><![CDATA[<p>I still remember that night I took a walk under the Eiffel Tower.</p>
+<p><img src="/../Img/DSC00265-standard.jpg" alt="The Eiffel Tower"><br><img src="/../Img/DSC00300-standard.jpg" alt="Light Show"></p>
+<p>The impression from down to up is shocking.</p>
+]]></content>
+      <categories>
+        <category>travel note</category>
+      </categories>
+      <tags>
+        <tag>travel</tag>
+        <tag>photography</tag>
       </tags>
   </entry>
 </search>
