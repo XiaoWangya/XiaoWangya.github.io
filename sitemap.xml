@@ -90,20 +90,6 @@
   </url>
   
   <url>
-    <loc>https://xiaowangya.github.io/tags/daily/</loc>
-    <lastmod>2023-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaowangya.github.io/tags/%E5%81%A5%E8%BA%AB/</loc>
-    <lastmod>2023-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xiaowangya.github.io/tags/wireless-communication/</loc>
     <lastmod>2023-09-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -118,7 +104,14 @@
   </url>
   
   <url>
-    <loc>https://xiaowangya.github.io/tags/travel/</loc>
+    <loc>https://xiaowangya.github.io/tags/daily/</loc>
+    <lastmod>2023-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaowangya.github.io/tags/%E5%81%A5%E8%BA%AB/</loc>
     <lastmod>2023-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -126,6 +119,13 @@
   
   <url>
     <loc>https://xiaowangya.github.io/tags/photography/</loc>
+    <lastmod>2023-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaowangya.github.io/tags/travel/</loc>
     <lastmod>2023-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
