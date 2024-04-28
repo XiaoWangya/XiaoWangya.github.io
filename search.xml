@@ -44,28 +44,6 @@
       </tags>
   </entry>
   <entry>
-    <title>通信链路的方向</title>
-    <url>/2023/09/05/blog2/</url>
-    <content><![CDATA[<p>两个通信设备之间的连接称为通信链路。如果链路是通过多路复用技术构建的，则也称为虚拟信道。通信链路和虚拟信道并不一定相同，这与通信链路的方向性有关。一般来说，通信链路有三种方向性：</p>
-<ul>
-<li><p>全双工：这意味着链路是双向的，双方可以同时向对方发送信息。然而，虚拟信道通常是单向的。要实现全双工传输，链路必须使用两个虚拟信道，每个信道负责一个方向的传输。例如，宽带网络中的 Cable Modem 和 ADSL 网络有两个信道，一个用于上行链路，一个用于下行链路，以形成双向全双工传输。但是，两个信道的速率不一定相同。</p>
-</li>
-<li><p>半双工： 半双工链路是指通信设备允许双向通信，但不能同时传输数据，必须交替进行。半双工链路只使用一个虚拟信道，通信两端轮流使用该信道：获得访问权的通信端可以传输数据，否则只能准备接收数据。虽然半双工链路的信道数量较少，但管理起来却更加复杂。一般来说，访问权限管理使用令牌传输，获得令牌后即可传输数据。</p>
-</li>
-<li><p>单工：这意味着通信链路只允许单向传输数据。单工链路只需要一个虚拟通道。链路的一侧负责传输数据，另一侧只能接收数据，一般用于广播信息。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
-        <tag>wireless communication</tag>
-        <tag>popular science</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>用HEXO和Github建立个人网站</title>
     <url>/2023/09/03/blog-1/</url>
     <content><![CDATA[<p>我的个人网站 <a href="https://xiaowangya.github.io/">https://xiaowangya.github.io/</a></p>
@@ -145,6 +123,65 @@ hexo g &amp;&amp; hexo d
       </categories>
       <tags>
         <tag>tool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>投资笔记1.md</title>
+    <url>/2024/04/28/investment-note-1-md/</url>
+    <content><![CDATA[<h1 id="投资至简：从原点出发构建价值投资体系"><a href="#投资至简：从原点出发构建价值投资体系" class="headerlink" title="投资至简：从原点出发构建价值投资体系"></a>投资至简：从原点出发构建价值投资体系</h1><p>投资就是放弃一种资产，获得另一种资产更多的未来现金流折现值。在二级市场，购买企业的股票是购买企业未来的自由现金流。</p>
+<h2 id="投资的第一性原理"><a href="#投资的第一性原理" class="headerlink" title="投资的第一性原理"></a>投资的第一性原理</h2><pre><code>现金流折现是投资的“第一性原理”
+</code></pre>
+<p><strong>现金流折现</strong>（Discounted Cash Flow Technique）的理论定义为</p>
+<blockquote>
+<p>任何股票、债券或企业今天的价值，都取决于其未来剩余年限预期的净现金流（现金流入减去现金流出），以一个适当的折现率加以折现后所得的现值。<br>其表达式可以写作<br>$$V(n) &#x3D; \sum_{t&#x3D;1}^{n}\frac{CF(t)}{(1+r)^t}$$<br>其中，$n$表示资产（企业）的寿命，$CF(t)$表示资产在$t$时刻产生的现金流，$r$反映预期现金流的折现率。</p>
+</blockquote>
+<h3 id="为什么需要折现？"><a href="#为什么需要折现？" class="headerlink" title="为什么需要折现？"></a>为什么需要折现？</h3><ul>
+<li>货币的时间价值：1980年的100元比2020年的100元更有价值<ul>
+<li>人能支配货币的时间有限（有限寿命）</li>
+<li>经济发展的自然通货膨胀</li>
+<li>即时消费带来的感受要强于延迟消费</li>
+<li>货币本身的信用方未必稳固（例如津巴布韦元，金圆券）</li>
+</ul>
+</li>
+</ul>
+<h2 id="现金流折现是评估一切资产价值的统一标准。"><a href="#现金流折现是评估一切资产价值的统一标准。" class="headerlink" title="现金流折现是评估一切资产价值的统一标准。"></a>现金流折现是评估一切资产价值的统一标准。</h2><blockquote>
+<p>现金流折现就是一项资产的“内在价值”</p>
+</blockquote>
+<p>虽然资产获得现金流最后代表的金钱是一样的，但是每种资产类别的特征都大不相同，具体表现在</p>
+<ul>
+<li>持续性</li>
+<li>稳定性</li>
+<li>确定性</li>
+<li>增长性</li>
+</ul>
+]]></content>
+      <categories>
+        <category>readingnote</category>
+      </categories>
+      <tags>
+        <tag>阅读笔记，投资</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>通信链路的方向</title>
+    <url>/2023/09/05/blog2/</url>
+    <content><![CDATA[<p>两个通信设备之间的连接称为通信链路。如果链路是通过多路复用技术构建的，则也称为虚拟信道。通信链路和虚拟信道并不一定相同，这与通信链路的方向性有关。一般来说，通信链路有三种方向性：</p>
+<ul>
+<li><p>全双工：这意味着链路是双向的，双方可以同时向对方发送信息。然而，虚拟信道通常是单向的。要实现全双工传输，链路必须使用两个虚拟信道，每个信道负责一个方向的传输。例如，宽带网络中的 Cable Modem 和 ADSL 网络有两个信道，一个用于上行链路，一个用于下行链路，以形成双向全双工传输。但是，两个信道的速率不一定相同。</p>
+</li>
+<li><p>半双工： 半双工链路是指通信设备允许双向通信，但不能同时传输数据，必须交替进行。半双工链路只使用一个虚拟信道，通信两端轮流使用该信道：获得访问权的通信端可以传输数据，否则只能准备接收数据。虽然半双工链路的信道数量较少，但管理起来却更加复杂。一般来说，访问权限管理使用令牌传输，获得令牌后即可传输数据。</p>
+</li>
+<li><p>单工：这意味着通信链路只允许单向传输数据。单工链路只需要一个虚拟通道。链路的一侧负责传输数据，另一侧只能接收数据，一般用于广播信息。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+        <tag>wireless communication</tag>
+        <tag>popular science</tag>
       </tags>
   </entry>
   <entry>
